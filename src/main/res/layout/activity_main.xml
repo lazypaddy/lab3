@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Phone Validation"
-            android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:textColor="#101010" />
 

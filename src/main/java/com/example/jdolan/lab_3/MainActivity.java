@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         if (required && !Pattern.matches(regex, text)) {
             editText.setError(errMsg);
             return false;
-        };
+        }
 
         return true;
     }
@@ -104,9 +104,7 @@ public class MainActivity extends AppCompatActivity {
                     "08[345678] abcdefg \n" +
                     "+ccc 8[345678] abcdefg \n" +
                     "00 ccc 8[345678] abcdefg");
-        };
-
-
+        }
 
 
     }
